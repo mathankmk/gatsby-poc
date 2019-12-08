@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1 style={{ paddingTop: 60 }}>Welcome to POC</h1>
+    <h1 style={{ paddingTop: 60 }}>Welcome to GatsbyJS POC</h1>
     <h1>Mission</h1>
     <p>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.

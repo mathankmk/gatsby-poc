@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
       <section>
         <main>{children}</main>
         <footer className="footer">
-          Created by Mathan © {new Date().getFullYear()}.
+          Created by Mohamed & Mathan © {new Date().getFullYear()}.
         </footer>
       </section>
     </div>

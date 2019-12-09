@@ -1,15 +1,13 @@
-import * as React from 'react';
-import styled from 'styled-components';
+import React, { Component } from "react"
+import styled from "styled-components"
 
-const Paragraph = styled.p`
+const paragraph = styled.p`
   font-size: 18px;
   line-height: 1.5em;
 `
 
-const paragraph = (props) => {
-  return (
-    <Paragraph>{props.text}</Paragraph>
-  )
+export default class Paragraph extends Component {
+  render() {
+    return <paragraph>{this.props.text}</paragraph>
+  }
 }
-
-export default paragraph;

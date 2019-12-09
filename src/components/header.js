@@ -1,7 +1,6 @@
-import { Link } from "gatsby"
-import React from "react"
-
-import "./header.css"
+import { Link } from "gatsby";
+import React from "react";
+import "./header.css";
 
 const Header = ({ siteTitle }) => (
   <header className="header">
